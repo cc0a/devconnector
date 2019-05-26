@@ -1,7 +1,7 @@
 {
   "name": "devconnector",
   "version": "1.0.0",
-  "description": "Social network for devs",
+  "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -9,28 +9,20 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cc0a/devconnector.git"
-  },
-  "author": "James McKee",
+  "author": "Brad Traversy",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cc0a/devconnector/issues"
-  },
-  "homepage": "https://github.com/cc0a/devconnector#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.1.0",
-    "express": "^4.17.0",
+    "express": "^4.16.4",
     "express-validator": "^5.3.1",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.10",
+    "mongoose": "^5.5.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.18.11"
   }
 }
